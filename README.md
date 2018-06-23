@@ -14,14 +14,16 @@ Summary: Library for computing persistent homology
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/dionysus-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/dionysus-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/dionysus-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/dionysus-feedstock)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/dionysus-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/dionysus-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/dionysus-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/dionysus-feedstock)
+![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/dionysus/badges/version.svg)](https://anaconda.org/conda-forge/dionysus)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/dionysus/badges/downloads.svg)](https://anaconda.org/conda-forge/dionysus)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-dionysus-green.svg)](https://anaconda.org/conda-forge/dionysus) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/dionysus.svg)](https://anaconda.org/conda-forge/dionysus) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/dionysus.svg)](https://anaconda.org/conda-forge/dionysus) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/dionysus.svg)](https://anaconda.org/conda-forge/dionysus) |
 
 Installing dionysus
 ===================
