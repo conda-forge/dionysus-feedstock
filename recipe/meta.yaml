@@ -20,12 +20,14 @@ build:
 
 requirements:
   build:
+    - cmake
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+  host:
     - python
     - setuptools
-    - toolchain
     - clangdev  # [linux]
     - libcxx    # [linux]
-    - cmake
     - boost-cpp
   run:
     - python
