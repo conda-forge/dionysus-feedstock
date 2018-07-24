@@ -1,7 +1,6 @@
 {% set name = "dionysus" %}
 {% set version = "2.0.6" %}
 {% set sha256 = "cce43402c0ccde42f39f3aef773089eb66e47fec3671a5e72625027733697d21" %}
-{% set build_number = "0" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: {{ build_number }}
+  number: 0
   script: >
     CC=clang CXX=clang++ CXXFLAGS="${CXXFLAGS} -stdlib=libc++" LDFLAGS="${LDFLAGS} -lc++abi"  # [linux]
     python setup.py install --single-version-externally-managed --record record.txt
