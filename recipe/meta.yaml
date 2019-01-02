@@ -14,7 +14,7 @@ build:
   number: 1000
   script: >
     CC=clang CXX=clang++ CXXFLAGS="${CXXFLAGS} -stdlib=libc++" LDFLAGS="${LDFLAGS} -lc++abi"  # [linux]
-    python setup.py install --single-version-externally-managed --record record.txt
+    {{ PYTHON }} -m pip install . -vv
   skip: true  # [win]
 
 requirements:
