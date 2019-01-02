@@ -24,13 +24,10 @@ requirements:
     - {{ compiler('cxx') }}
   host:
     - python
-    - setuptools
-    - clangdev  # [linux]
-    - libcxx    # [linux]
+    - pip
     - boost-cpp
   run:
     - python
-    - libcxx    # [linux]
 
 test:
   imports:
