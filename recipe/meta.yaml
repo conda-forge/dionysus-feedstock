@@ -11,24 +11,23 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1000
   script: >
-    CC=clang CXX=clang++ CXXFLAGS="${CXXFLAGS} -stdlib=libc++" LDFLAGS="${LDFLAGS} -lc++abi"  # [linux]
-    python setup.py install --single-version-externally-managed --record record.txt
+    # CC=clang CXX=clang++ CXXFLAGS="${CXXFLAGS} -stdlib=libc++" LDFLAGS="${LDFLAGS} -lc++abi"  # [linux]
+    {{ PYTHON }} -m pip install . -vv
   skip: true  # [win]
 
 requirements:
   build:
-    - python
-    - setuptools
-    - toolchain
-    - clangdev  # [linux]
-    - libcxx    # [linux]
     - cmake
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+  host:
+    - python
+    - pip
     - boost-cpp
   run:
     - python
-    - libcxx    # [linux]
 
 test:
   imports:
