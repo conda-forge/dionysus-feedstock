@@ -5,11 +5,13 @@ Home: http://mrzv.org/software/dionysus2
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dionysus-feedstock/blob/master/LICENSE.txt)
 
 Summary: Library for computing persistent homology
 
+Development: https://github.com/mrzv/dionysus
 
+Documentation: http://mrzv.org/software/dionysus2
 
 Current build status
 ====================
@@ -57,6 +59,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>linux_64_boost_cpp1.72.0python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2858&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/dionysus-feedstock?branchName=master&jobName=linux&configuration=linux_64_boost_cpp1.72.0python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>linux_64_boost_cpp1.74.0python3.6.____73_pypy</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2858&branchName=master">
@@ -82,6 +91,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2858&branchName=master">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/dionysus-feedstock?branchName=master&jobName=linux&configuration=linux_64_boost_cpp1.74.0python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_boost_cpp1.74.0python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2858&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/dionysus-feedstock?branchName=master&jobName=linux&configuration=linux_64_boost_cpp1.74.0python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -113,6 +129,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>osx_64_boost_cpp1.72.0python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2858&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/dionysus-feedstock?branchName=master&jobName=osx&configuration=osx_64_boost_cpp1.72.0python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>osx_64_boost_cpp1.74.0python3.6.____73_pypy</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2858&branchName=master">
@@ -138,6 +161,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2858&branchName=master">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/dionysus-feedstock?branchName=master&jobName=osx&configuration=osx_64_boost_cpp1.74.0python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_boost_cpp1.74.0python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2858&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/dionysus-feedstock?branchName=master&jobName=osx&configuration=osx_64_boost_cpp1.74.0python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr>
