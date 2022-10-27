@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1004
+  number: 1005
   script: >
     # CC=clang CXX=clang++ CXXFLAGS="${CXXFLAGS} -stdlib=libc++" LDFLAGS="${LDFLAGS} -lc++abi"  # [linux]
     {{ PYTHON }} -m pip install . -vv
@@ -20,6 +20,7 @@ build:
 requirements:
   build:
     - cmake
+    - make
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
   host:
