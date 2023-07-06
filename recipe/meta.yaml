@@ -12,8 +12,8 @@ source:
 
 build:
   number: 0
-  script: >
-    # CC=clang CXX=clang++ CXXFLAGS="${CXXFLAGS} -stdlib=libc++" LDFLAGS="${LDFLAGS} -lc++abi"  # [linux] {{ PYTHON }} -m pip install . -vv
+  script:
+    - {{ PYTHON }} -m pip install . -vv
   skip: true  # [win]
 
 requirements:
