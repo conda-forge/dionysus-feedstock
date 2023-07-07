@@ -36,12 +36,12 @@ test:
     - dionysus
 
 about:
-  home: http://mrzv.org/software/dionysus2
+  home: https://mrzv.org/software/dionysus2
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
   summary: Library for computing persistent homology
-  doc_url: http://mrzv.org/software/dionysus2
+  doc_url: https://mrzv.org/software/dionysus2
   dev_url: https://github.com/mrzv/dionysus
 
 extra:
