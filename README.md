@@ -1,11 +1,11 @@
-About dionysus
-==============
+About dionysus-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dionysus-feedstock/blob/main/LICENSE.txt)
 
 Home: http://mrzv.org/software/dionysus2
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dionysus-feedstock/blob/main/LICENSE.txt)
 
 Summary: Library for computing persistent homology
 
