@@ -1,17 +1,17 @@
 {% set name = "dionysus" %}
-{% set version = "2.0.10" %}
-{% set sha256 = "e20f6cc5622d0ff337a2f87fb5b3f2b7b7aedc4cdd07018c27b38f4cb75b0db8" %}
+{% set version = "2.1.0" %}
+{% set sha256 = "10442b14a7cc9104ae05c4668f73b8d69475b2def4aa63ea0de8830ca838ae1b" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
-  number: 5
+  number: 0
   script:
     - {{ PYTHON }} -m pip install . -vv
   skip: true  # [win]
