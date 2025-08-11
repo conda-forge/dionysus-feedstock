@@ -35,6 +35,7 @@ requirements:
 test:
   imports:
     - dionysus
+    - intervaltree
 
 about:
   home: https://mrzv.org/software/dionysus2
