@@ -1,6 +1,6 @@
 {% set name = "dionysus" %}
-{% set version = "2.1.1" %}
-{% set sha256 = "ae19ba4f212389df269a03be080891cd716a7eff0f19473b967a7f60a4ba7924" %}
+{% set version = "2.1.2" %}
+{% set sha256 = "2a938ae7fa064292f231e1176dad89ba88834ac0f883b4ab7159f7b288f2d2d1" %}
 
 package:
   name: {{ name|lower }}
@@ -11,10 +11,10 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script:
     - {{ PYTHON }} -m pip install . -vv
-  skip: true  # [win]
+  skip: true  # [win or py<312]
 
 requirements:
   build:
@@ -29,7 +29,9 @@ requirements:
     - python
     - pip
     - libboost-headers
-    - setuptools
+    - scikit-build-core
+    - pybind11
+    - zlib
   run:
     - python
     - intervaltree >=3.1.0 # new
