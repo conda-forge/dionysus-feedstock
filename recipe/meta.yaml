@@ -1,6 +1,6 @@
 {% set name = "dionysus" %}
-{% set version = "2.1.3" %}
-{% set sha256 = "7bd1a8e4cef2d16ec6560de64a719dac92042c9e992113d1ad4c52464e109b5e" %}
+{% set version = "2.1.4" %}
+{% set sha256 = "4284467228f3b0a577a387ee5c8a7dccf12a4ca0ce70d79f0f7443e6afacba5d" %}
 
 package:
   name: {{ name|lower }}
