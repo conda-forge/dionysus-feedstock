@@ -1,6 +1,6 @@
 {% set name = "dionysus" %}
-{% set version = "2.1.8" %}
-{% set sha256 = "bfb17626b6a185dc0f1e058de8087937f52bf09a3e7823798c47fd87e3aed42d" %}
+{% set version = "2.2.0" %}
+{% set sha256 = "21af8a5ef0797e0823cc1526692b7c81241911b4e10045654961e7bd11296624" %}
 
 package:
   name: {{ name|lower }}
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script:
     - {{ PYTHON }} -m pip install . -vv
   skip: true  # [win or py<312]
